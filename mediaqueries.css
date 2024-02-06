@@ -7,7 +7,7 @@
 
     html {
         margin: 0 auto;
-        overflow-y: hidden;
+        overflow-y: auto;
         overflow-x: hidden;
         cursor: crosshair;
         scroll-behavior: smooth;
@@ -59,7 +59,7 @@
         display: none;
         text-align: right;
         justify-content: center;
-        height: 17rem;
+        height: 19rem;
         width: 9rem;
         background-color: #fff;
         text-decoration: none;
@@ -86,7 +86,7 @@
         justify-content: center;
         align-items: first baseline;
         color: var(--primary-color);
-        height: 10rem;
+        height: 45rem;
         width: 70%;
         padding-left: 30px;
         margin-top: 50px;
@@ -123,10 +123,18 @@
             border: 2px solid #ffffff;
             font-family: 'Questrial', sans-serif;
           }
+
+    #hero-photo {
+        display: flex;
+        position:static;
+        height: 20rem;
+    }
           
     .button-portfolio button:hover {
         color: rgb(180, 180, 180);
         border: 2px solid #ffffff;
         }
+
+    
 
 }
