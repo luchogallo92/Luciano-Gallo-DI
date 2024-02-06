@@ -1,0 +1,108 @@
+@media (max-width: 480px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        margin: 0 auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        cursor: crosshair;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        height: 100%;
+    }
+
+    body {
+        max-height: max-content;
+        background: #343434;
+        background: radial-gradient(at left top, #343434, #2F4E89);
+    }
+
+    :root {
+        --primary-color: #ffffff
+    }
+
+    /* Header */
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(255, 255, 255, 0.1);
+        height: 50px;
+        width: auto;
+        padding-left: 30px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        color: var(--primary-color);
+        font-weight: 200;
+    }
+
+    header input{
+        
+    }
+    
+    header label img {
+        filter: invert(1);
+        margin-right: 30px;
+        height: 20px;
+        width: 20px;
+    }
+
+    /* Hero Section */
+    
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: first baseline;
+        color: var(--primary-color);
+        height: 10rem;
+        width: 70%;
+        padding-left: 30px;
+        margin-top: 50px;
+    }
+
+    .hero-section h3 {
+        font-weight: 300;
+        font-family: 'Questrial', sans-serif;
+        font-size: 35px;
+    }
+
+    .hero-span {
+        margin-top: 20px;
+    }
+
+    .hero-span span {
+        padding-top: 50px;
+        font-size: 15px;
+        font-family: 'Questrial', sans-serif;
+        font-weight: 100;
+    }
+
+    .button-portfolio button {
+            margin-top: 20px;
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 0;
+            background: none;
+            overflow: hidden;
+            border: 2px solid #ffffff;
+            font-family: 'Questrial', sans-serif;
+          }
+          
+    .button-portfolio button:hover {
+        color: rgb(180, 180, 180);
+        border: 2px solid #ffffff;
+        }
+
+}
