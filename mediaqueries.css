@@ -3,6 +3,8 @@
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 
     html {
@@ -10,9 +12,7 @@
         overflow-y: auto;
         overflow-x: hidden;
         cursor: crosshair;
-        scroll-behavior: smooth;
-        box-sizing: border-box;
-        height: 100%;
+        height: auto;
     }
 
     body {
@@ -29,11 +29,12 @@
 
     header {
         display: flex;
+        position: relative;
         align-items: center;
         justify-content: space-between;
         background-color: rgba(255, 255, 255, 0.1);
         height: 50px;
-        width: auto;
+        width: 100%;
         padding-left: 30px;
     }
 
@@ -83,10 +84,10 @@
     
     .hero-section {
         display: flex;
-        justify-content: center;
-        align-items: first baseline;
+        flex-direction: column;
+        justify-content: space-evenly;
         color: var(--primary-color);
-        height: 45rem;
+        height: 47rem;
         width: 70%;
         padding-left: 30px;
         margin-top: 50px;
@@ -98,19 +99,13 @@
         font-size: 35px;
     }
 
-    .hero-span {
-        margin-top: 20px;
-    }
-
     .hero-span span {
-        padding-top: 50px;
         font-size: 15px;
         font-family: 'Questrial', sans-serif;
         font-weight: 100;
     }
 
     .button-portfolio button {
-            margin-top: 20px;
             min-width: 130px;
             height: 40px;
             color: #fff;
@@ -124,6 +119,19 @@
             font-family: 'Questrial', sans-serif;
           }
 
+    .home-social {
+        top: 0px;
+        display: flex;
+        height: 2rem;
+        width: 10rem;
+    }
+
+    .home-social-icon i {
+        display: block;
+        height: 50px;
+    }
+
+
     #hero-photo {
         display: flex;
         position:static;
@@ -135,6 +143,32 @@
         border: 2px solid #ffffff;
         }
 
+    /* Acerca de mi */
+
+    .about-me {
+        scroll-behavior: smooth;
+        display: flex;
+        height: 54rem;
+        background-color: #fff;
+    }
+
+    .text-about-me h2 {
+        margin-top: 20px;
+        margin-left: 30px;
+        font-family: 'Questrial', sans-serif;
+    }
+
+    .text-about-me span {
+        display: flex;
+        float: none;
+        margin-left: auto;
+        margin-right: 30px;
+        word-wrap: break-word;
+        margin-left: 30px;
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Questrial', sans-serif;
+    }
     
 
 }
