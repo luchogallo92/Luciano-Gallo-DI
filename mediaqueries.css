@@ -45,7 +45,7 @@
     }
 
     header input{
-        
+        display: none;
     }
     
     header label img {
@@ -53,6 +53,30 @@
         margin-right: 30px;
         height: 20px;
         width: 20px;
+    }
+
+    #menu-header {
+        display: none;
+        text-align: right;
+        justify-content: center;
+        height: 17rem;
+        width: 9rem;
+        background-color: #fff;
+        text-decoration: none;
+        top: 50px;
+        right: 0px;
+        position: absolute;
+        font-family: 'Questrial', sans-serif;
+        list-style: none;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    #menu-header a {
+        display: flex;
+        justify-content: end;
+        color: black;
+        text-decoration: none;
+        padding: 20px;
     }
 
     /* Hero Section */

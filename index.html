@@ -20,14 +20,20 @@
     
     <header>
         <h1>Luciano Gallo</h1>
-        <input type="checkbox" id="menu-nav">
+        <input type="checkbox" id="menu-nav" value="1" onchange="javascript:showContent()">
         <label for="menu-nav"><img src="./Assets/icons/menu-nav.svg" alt=""></label>
+
+        <div id="menu-header">
+            <li>
+                <a href="">Acerca de mi</a>
+                <a href="">Experiencia</a>
+                <a href="">Metas</a>
+                <a href="">Contacto</a>
+            </li>
+        </div>
     </header>
 
-        <div class="menu-header">
-            
-        </div>
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section class="hero-section">
         <div>
             <h3>Hola!<br>Soy Luciano Gallo</h3>
@@ -44,5 +50,18 @@
         <!-- Aca deberia ir una foto -->
     </section>
 
+    <!-- scripts -->
+    <script type="text/javascript">
+        function showContent() {
+            element = document.getElementById("menu-header");
+            check = document.getElementById("menu-nav");
+            if (check.checked) {
+                element.style.display='flex';
+            }
+            else {
+                element.style.display='none';
+            }
+        }
+    </script>
 </body>
 </html>
