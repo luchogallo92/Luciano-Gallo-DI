@@ -124,9 +124,15 @@
     .home-social {
         top: 0px;
         display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15rem;
+        right: -70px;
+        gap: 15px;
         height: 2rem;
         width: 8rem;
         justify-content: space-between;
+        z-index: -10;
     }
 
     .home-social-icon {
