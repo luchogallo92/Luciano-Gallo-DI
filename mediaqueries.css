@@ -17,8 +17,13 @@
     }
 
     body {
-        max-width: 100%;
-        max-height: 100%;
+        touch-action: manipulation;
+        user-zoom: fixed;
+        -ms-content-zooming: none;
+        -ms-user-zoom: fixed;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
         background: #343434;
         background: radial-gradient(at left top, #343434, #2F4E89);
     }
