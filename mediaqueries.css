@@ -104,6 +104,7 @@
         font-size: 15px;
         font-family: 'Questrial', sans-serif;
         font-weight: 100;
+        text-align: justify;
     }
 
     .button-portfolio button {
@@ -174,12 +175,13 @@
     .text-about-me span {
         display: flex;
         float: none;
+
         margin-left: auto;
         margin-right: 30px;
         word-wrap: break-word;
         margin-left: 30px;
         font-size: 15px;
-        text-align: left;
+        text-align: justify;
         font-family: 'Questrial', sans-serif;
     }
     
