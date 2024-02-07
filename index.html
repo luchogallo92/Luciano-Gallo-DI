@@ -10,6 +10,10 @@
     <!-- Styles Desktop -->
     <link rel="stylesheet" href="./styles.css">
 
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,21 +43,21 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-            <div>
+            <div data-aos="fade-right">
                 <h3>Hola!<br>Soy Luciano Gallo</h3>
             </div>  
-            <div class="hero-span">
+            <div class="hero-span" data-aos="fade-right">
                 <Span>Soy Diseñador Industrial, con mas de 5 años
                 de experiencia en el rubro del diseño y tambien
                 incursionado en el mundo IT
                 </Span>
             </div>
             
-            <div class="button-portfolio">
+            <div class="button-portfolio" data-aos="fade-right">
                 <button>Ver Portfolio</button>
             </div>
             
-            <div class="home-social">
+            <div class="home-social" data-aos="fade-left">
                 <a href="https://github.com/luchogallo92" class="home-social-icon"><i class='bx bxl-github'></i></i></a>
                 <a href="https://www.behance.net/lucianogallo-di" class="home-social-icon"><i class='bx bxl-behance'></i></a>
                 <a href="https://www.linkedin.com/in/lucianogallo-di/" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
@@ -68,8 +72,8 @@
        
 
     <!-- Acerca de mi -->
-    <section class="about-me" id="1">
-        <div class="text-about-me">
+    <section class="about-me" id="1" >
+        <div class="text-about-me" data-aos="fade-up">
             <h2>Acerca de mi</h2>.
             <span>Realize mis estudios de grado en la Universidad de Palermo ubicada en la Ciudad de Buenos Aires en el periodo ubicado desde el 2015 al 2021. A mediados del 2022 inicie mis estudios al mundo IT creando mis propios proyectos en HTML, CSS y JavaScript.
             </span>
@@ -78,15 +82,21 @@
 
     <!-- Proyects -->
 
+    <section class="proyects" id="2">
+        
+    </section>
+
     <!-- Footer section -->
     <footer id="5">
-        <div class="info-contact">
+        <div class="info-contact" data-aos="fade-down">
             <h4>Contacto <br><a href="" id="link-mail">Lucianogallo.di@gmail.com</a></h4>
             <i class='bx bxl-gmail' ></i>
         </div>
     </footer>
 
     <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/Assets/JS/main.js"></script>
+
 </body>
 </html>
