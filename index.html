@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> 
+
+    <!-- Iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- Header -->
@@ -26,10 +29,10 @@
         <div id="menu-header">
             <li>
                 <a href="#1">Acerca de mi</a>
-                <a href="">Proyectos</a>
-                <a href="">Experiencia</a>
-                <a href="">Metas</a>
-                <a href="">Contacto</a>
+                <a href="#2">Proyectos</a>
+                <a href="#3">Experiencia</a>
+                <a href="#4">Metas</a>
+                <a href="#5">Contacto</a>
             </li>
         </div>
     </header>
@@ -51,9 +54,9 @@
             </div>
             
             <div class="home-social">
-                <a href="#" class="home-social-icon"><i class='bx bxl-behance' ></i></a>
-                <a href="#" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="#" class="home-social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/luchogallo92" class="home-social-icon"><i class='bx bxl-github'></i></i></a>
+                <a href="https://www.behance.net/lucianogallo-di" class="home-social-icon"><i class='bx bxl-behance'></i></a>
+                <a href="https://www.linkedin.com/in/lucianogallo-di/" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
             </div>
 
 
@@ -71,18 +74,14 @@
         </div>
     </section>
 
+    <footer id="5">
+        <div class="info-contact">
+            <h4>Contacto <br><a href="" id="link-mail">Lucianogallo.di@gmail.com</a></h4>
+            <i class='bx bxl-gmail' ></i>
+        </div>
+    </footer>
+
     <!-- scripts -->
-    <script type="text/javascript">
-        function showContent() {
-            element = document.getElementById("menu-header");
-            check = document.getElementById("menu-nav");
-            if (check.checked) {
-                element.style.display='flex';
-            }
-            else {
-                element.style.display='none';
-            }
-        }
-    </script>
+    <script src="/Assets/JS/main.js"></script>
 </body>
 </html>
