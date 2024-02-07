@@ -20,6 +20,7 @@
         max-height: 100%;
         background: #343434;
         background: radial-gradient(at left top, #343434, #2F4E89);
+        overflow-x: hidden;
     }
 
     :root {
