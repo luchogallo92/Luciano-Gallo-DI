@@ -16,6 +16,7 @@
     }
 
     body {
+        max-width: max-content;
         max-height: max-content;
         background: #343434;
         background: radial-gradient(at left top, #343434, #2F4E89);
@@ -87,10 +88,10 @@
         flex-direction: column;
         justify-content: space-evenly;
         color: var(--primary-color);
-        height: 47rem;
+        height: 22rem;
         width: 70%;
         padding-left: 30px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .hero-section h3 {
@@ -135,10 +136,17 @@
         text-decoration: none;
     }
 
+    .photo {
+        display: block;
+        height: 25rem;
+        justify-items: center;
+        background-image: url(./Assets/Photos/hero-photo.PNG);
+    }
+
     #hero-photo {
-        display: flex;
         position:relative;
-        height: 20rem;
+        height: 25rem;
+        background-repeat: no-repeat;
         background-size: cover;
         z-index: -2;
     }
