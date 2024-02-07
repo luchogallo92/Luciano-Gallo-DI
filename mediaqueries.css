@@ -16,8 +16,8 @@
     }
 
     body {
-        max-width: max-content;
-        max-height: max-content;
+        max-width: 100%;
+        max-height: 100%;
         background: #343434;
         background: radial-gradient(at left top, #343434, #2F4E89);
     }
@@ -149,15 +149,15 @@
         display: block;
         height: 25rem;
         justify-items: center;
+        width: 100%;
         background-image: url(./Assets/Photos/hero-photo.PNG);
     }
 
     #hero-photo {
-        position:relative;
-        height: 25rem;
+        position: relative;
         background-repeat: no-repeat;
         background-size: cover;
-        z-index: -2;
+        z-index: -1;
     }
           
     .button-portfolio button:hover {
