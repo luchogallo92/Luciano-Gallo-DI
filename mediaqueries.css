@@ -39,6 +39,7 @@
         height: 50px;
         width: 100%;
         padding-left: 30px;
+        z-index: 1;
     }
 
     header h1 {
@@ -159,8 +160,8 @@
     }
           
     .button-portfolio button:hover {
-        color: rgb(180, 180, 180);
-        border: 2px solid #ffffff;
+        color: rgb(199, 199, 199);
+        border: 2px solid rgb(199, 199, 199);
         }
 
     /* Acerca de mi */
