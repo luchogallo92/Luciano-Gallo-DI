@@ -1,6 +1,4 @@
 
-AOS.init();
-
 function showContent() {
     element = document.getElementById("menu-header");
     check = document.getElementById("menu-nav");
@@ -11,3 +9,5 @@ function showContent() {
         element.style.display='none';
     }
 }
+
+AOS.init();
