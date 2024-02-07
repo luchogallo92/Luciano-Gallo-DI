@@ -5,12 +5,12 @@
         padding: 0;
         box-sizing: border-box;
         scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     html {
         margin: 0 auto;
-        overflow-y: scroll;
-        overflow-x: hidden;
         cursor: crosshair;
         height: auto;
     }
