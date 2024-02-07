@@ -10,7 +10,7 @@
 
     html {
         margin: 0 auto;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         cursor: crosshair;
         height: auto;
@@ -21,7 +21,6 @@
         max-height: 100%;
         background: #343434;
         background: radial-gradient(at left top, #343434, #2F4E89);
-        overflow-x: hidden;
     }
 
     :root {
@@ -156,7 +155,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
-        overflow-x: hidden;
+
     }
           
     .button-portfolio button:hover {
