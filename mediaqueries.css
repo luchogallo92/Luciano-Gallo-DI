@@ -135,11 +135,12 @@
         text-decoration: none;
     }
 
-
     #hero-photo {
         display: flex;
-        position:static;
+        position:relative;
         height: 20rem;
+        background-size: cover;
+        z-index: -2;
     }
           
     .button-portfolio button:hover {
